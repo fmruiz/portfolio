@@ -1,12 +1,15 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from "react";
+import { Homepage } from "./components/Homepage/Homepage";
+import Layout from "./components/Layout/Layout";
 
 const App = () => {
   return (
     <Fragment>
-      <div>Hola mundo</div>
+      <Layout>
+        <Homepage color={"black"}/>
+      </Layout>
     </Fragment>
-  )
-}
+  );
+};
 
-export default App
-
+export default App;

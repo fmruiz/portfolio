@@ -1,0 +1,6 @@
+/* HOMEPAGE STYLES */
+.homepage__container {
+  display: flex;
+  flex-direction: column;
+}
+

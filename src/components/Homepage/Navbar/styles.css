@@ -1,0 +1,26 @@
+.navbar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar__first {
+  width: 60%;
+}
+
+.navbar__second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.navbar__second a {
+  text-decoration: none;
+}
+
+/* STORIES ARGS */
+.black {
+  color: var(--color-black);
+}
