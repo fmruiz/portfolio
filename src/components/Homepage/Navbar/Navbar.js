@@ -9,9 +9,6 @@ export const Navbar = ({ color, ...props }) => (
         Home
       </a>
       <a href="#" className={`${color}`}>
-        Services
-      </a>
-      <a href="#" className={`${color}`}>
         Skills
       </a>
       <a href="#" className={`${color}`}>
