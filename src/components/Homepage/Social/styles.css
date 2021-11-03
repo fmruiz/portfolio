@@ -1,0 +1,16 @@
+/* SOCIAL STYLES */
+.social__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.social__icons__container {
+  display: flex;
+  align-items: center;
+}
+
+.social__mail__container a {
+  text-decoration: none;
+}
