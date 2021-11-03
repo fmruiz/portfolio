@@ -1,0 +1,36 @@
+/* MAIN STYLES */
+
+.main__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__first {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__first h1 {
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.main__first h1 span {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.main__first h3 {
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+/* MAIN STORIES ARGS */
+.black {
+    color: var(--color-black)
+}
