@@ -13,15 +13,20 @@
 
 .main__first h1 {
   font-size: 64px;
-  font-weight: 400;
+  font-weight: 800;
   letter-spacing: 2px;
   margin: 0;
+  margin-left: 20px;
+}
+
+.main__text {
+  display: flex;
+  align-items: center;
   padding-bottom: 15px;
 }
 
-.main__first h1 span {
+.main__text span {
   font-size: 64px;
-  font-weight: 800;
 }
 
 .main__first h3 {
