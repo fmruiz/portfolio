@@ -1,5 +1,4 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
 import "./styles.css";
 
 export const Main = ({ color, ...props }) => {

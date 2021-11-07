@@ -1,6 +1,7 @@
 import React from "react";
-import Logo from "../Logo";
 import './styles.css'
+// component
+import Logo from "../Logo";
 
 export const Navbar = ({ color, ...props }) => (
   <div className={`navbar__container`} {...props}>
@@ -8,16 +9,13 @@ export const Navbar = ({ color, ...props }) => (
       <Logo>FR</Logo>
     </div>
     <div className={"navbar__second"}>
-      <a href="#" className={`${color}`}>
-        Home
-      </a>
-      <a href="#" className={`${color}`}>
+      <a href="#skills" className={`${color}`}>
         Skills
       </a>
-      <a href="#" className={`${color}`}>
+      <a href="#experience" className={`${color}`}>
         Experience
       </a>
-      <a href="#" className={`${color}`}>
+      <a href="#contact" className={`${color}`}>
         Contact
       </a>
     </div>

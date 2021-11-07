@@ -5,7 +5,7 @@ import "./styles.css";
 import SayHello from "./SayHello";
 
 const Footer = () => (
-  <div className={"footer__container"}>
+  <div className={"footer__container"} id={"contact"}>
     <SayHello bold>Let's be internet BFFs</SayHello>
     <a
       href={"https://github.com/fmruiz"}

@@ -19,7 +19,29 @@
 
 .navbar__second a {
   text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
 }
+
+.navbar__second a:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-black);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar__second a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 
 /* STORIES ARGS */
 .black {

@@ -7,7 +7,7 @@ import Text from "../atomic/atoms/Text";
 import Divider from "../atomic/atoms/Divider";
 
 const Experience = () => (
-  <div className={"experience__container"}>
+  <div className={"experience__container"} id={"experience"}>
     <Title size={"42px"} bold>
       Experience
     </Title>

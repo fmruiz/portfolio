@@ -5,7 +5,7 @@ import './styles.css'
 import Title from '../atomic/atoms/Title';
 
 const Skills = () => (
-    <div className={"skills__container"}>
+    <div className={"skills__container"} id={"skills"}>
         <Title size={"42px"} bold>Skills</Title>
     </div>
 )
