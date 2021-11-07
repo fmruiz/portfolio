@@ -1,0 +1,16 @@
+/* FOOTER STYLES */
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.footer__copyright {
+  margin: 0 auto;
+  font-size: 12px;
+  color: var(--color-black);
+  text-decoration: none;
+  height: 10%;
+  display: flex;
+  align-items: center;
+}

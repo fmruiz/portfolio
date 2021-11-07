@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"3d-word-cloud@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/3d-word-cloud/-/3d-word-cloud-1.1.2.tgz#f4cb50bd13c1d85a4727c8b256c4baf85dda4b9c"
+  integrity sha512-dgYpxt3Mq4kd+s41DSyFGjPCMnipKlDrX3d1uxxrB7S5miBjx23xiev0BpiQM0uE+xRZJEv6JR7oi3FzONbUdg==
+  dependencies:
+    jquery ">=1.7.0 <4.0.0"
+
 "@babel/code-frame@7.10.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
@@ -8931,6 +8938,11 @@ jest@26.6.0:
     "@jest/core" "^26.6.0"
     import-local "^3.0.2"
     jest-cli "^26.6.0"
+
+"jquery@>=1.7.0 <4.0.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
+  integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
 
 js-string-escape@^1.0.1:
   version "1.0.1"

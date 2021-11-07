@@ -5,6 +5,7 @@ import Layout from "./components/Layout/Layout";
 import Homepage from "./components/Homepage";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Homepage/>
         <Skills />
         <Experience />
+        <Footer />
       </Layout>
     </Fragment>
   );
