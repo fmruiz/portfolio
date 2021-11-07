@@ -7,29 +7,16 @@ export const Main = ({ color, ...props }) => {
     <div className={`main__container`} {...props}>
       <div className={`main__first ${color}`}>
         <div className={"main__text"}>
-          <span>I'm</span>
-          <h1 className={"h1__main"}>
-            <Typewriter
-              options={{
-                loop: true,
-                delay: 220
-              }}
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString("Franco Ruiz")
-                  .callFunction(() => {
-                    console.log("String typed out!");
-                  })
-                  .callFunction(() => {
-                    console.log("All strings were deleted");
-                  })
-                  .pauseFor(10000)
-                  .start();
-              }}
-            />
-          </h1>
+          <div className={"name__text"}>
+          <span>I'm</span> 
+          <h1 className={"h1__main"}>Franco Ruiz.</h1>
+          </div>
+          <h4 className={"h4__main"}>I build things for the web.</h4>
         </div>
-        <h3>Frontend Engineer</h3>
+        <h3>
+          I'm a Frontend Engineer specializing in building exceptional digital
+          experiences. Currently, I'm focused on learning on studying new technologies.
+        </h3>
       </div>
       <div className={"main__second"}></div>
     </div>
