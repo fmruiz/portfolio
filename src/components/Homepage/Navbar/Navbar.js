@@ -1,9 +1,12 @@
 import React from "react";
+import Logo from "../Logo";
 import './styles.css'
 
 export const Navbar = ({ color, ...props }) => (
   <div className={`navbar__container`} {...props}>
-    <div className={"navbar__first"}></div>
+    <div className={"navbar__first"}>
+      <Logo>FR</Logo>
+    </div>
     <div className={"navbar__second"}>
       <a href="#" className={`${color}`}>
         Home

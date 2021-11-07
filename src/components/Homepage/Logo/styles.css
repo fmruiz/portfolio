@@ -1,0 +1,18 @@
+/* LOGO STYLES */
+.logo__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border: 3.5px solid var(--color-black);
+  color: var(--color-black);
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.logo__container:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    transition: 0.5s all;
+}
