@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles.css";
 
-const Title = ({ text, size, bold, ...props }) => (
+const Title = ({children, size, bold, ...props }) => (
   <h4
     className={"title__experience"}
-    style={{ fontSize: size, fontWeight: bold ? "bold" : "400" }}
+    style={{ fontSize: size, fontWeight: bold ? "bold" : "500" }}
     {...props}
   >
-    {text}
+    {children}
   </h4>
 );
 

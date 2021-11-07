@@ -1,5 +1,13 @@
 /* EXPERIENCE STYLES */
 .experience__container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.experience__body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
 }

@@ -1,0 +1,7 @@
+/* DIVIDER STYLES */
+.divider {
+    border-top: 1px solid gray;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 100%;
+}

@@ -1,0 +1,6 @@
+/* TEXT STYLES */
+.text__atom {
+    color: var(--color-black);
+    line-height: 22px;
+    margin: 0;
+}
