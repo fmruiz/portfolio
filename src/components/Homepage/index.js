@@ -6,10 +6,12 @@ import { Navbar } from "./Navbar/Navbar";
 import { Main } from "./Main/Main";
 import { Social } from "./Social/Social";
 
-export const Homepage = () => (
+const Homepage = () => (
   <div className={`homepage__container`}>
     <Navbar color={"black"} />
     <Main color={"black"} />
     <Social color={"black"} />
   </div>
 );
+
+export default Homepage;

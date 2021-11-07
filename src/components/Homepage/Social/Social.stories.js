@@ -6,7 +6,7 @@ export default {
   component: Social,
 };
 
-const Template = (args) => <Template {...args} />;
+const Template = (args) => <Social {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {

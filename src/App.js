@@ -1,12 +1,14 @@
 import React, { Fragment } from "react";
-import { Homepage } from "./components/Homepage/Homepage";
+import Experience from "./components/Experience";
+import Homepage from "./components/Homepage";
 import Layout from "./components/Layout/Layout";
 
 const App = () => {
   return (
     <Fragment>
       <Layout>
-        <Homepage color={"black"}/>
+        <Homepage/>
+        <Experience />
       </Layout>
     </Fragment>
   );

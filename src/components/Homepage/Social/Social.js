@@ -13,13 +13,21 @@ const Twitter = () => <FontAwesomeIcon icon={faTwitter} />;
 export const Social = ({ color, ...props }) => (
   <div className={`social__container`} {...props}>
     <div className={`social__icons__container`}>
-      <a href={"https://www.linkedin.com/in/francomruiz/"}>
+      <a
+        href={"https://www.linkedin.com/in/francomruiz/"}
+        target={"_blank"}
+        rel="noreferrer"
+      >
         <Linkedin />
       </a>
-      <a href={"https://github.com/fmruiz"}>
+      <a href={"https://github.com/fmruiz"} target={"_blank"} rel="noreferrer">
         <Github />
       </a>
-      <a href={"https://twitter.com/francoRuiz_"}>
+      <a
+        href={"https://twitter.com/francoRuiz_"}
+        target={"_blank"}
+        rel="noreferrer"
+      >
         <Twitter />
       </a>
     </div>
