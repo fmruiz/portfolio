@@ -1,0 +1,42 @@
+/* SKILLS STYLES */
+.about__container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 80%;
+}
+
+.about__subtitle {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
+
+.about__body__text {
+  margin-bottom: 20px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.about__resume {
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3.5px solid var(--color-black);
+  color: var(--color-black);
+  cursor: pointer;
+  transition: 0.5s all;
+  width: 130px;
+  height: 30px;
+}
+
+.about__resume:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  transition: 0.5s all;
+}

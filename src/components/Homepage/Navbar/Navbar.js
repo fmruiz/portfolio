@@ -9,8 +9,8 @@ export const Navbar = ({ color, ...props }) => (
       <Logo>FR</Logo>
     </div>
     <div className={"navbar__second"}>
-      <a href="#skills" className={`${color}`}>
-        Skills
+      <a href="#about" className={`${color}`}>
+        About
       </a>
       <a href="#experience" className={`${color}`}>
         Experience

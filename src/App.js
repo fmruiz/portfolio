@@ -4,7 +4,7 @@ import AnimatedCursor from "react-animated-cursor";
 import Layout from "./components/Layout/Layout";
 // components
 import Homepage from "./components/Homepage";
-import Skills from "./components/Skills";
+import About from "./components/About";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 
@@ -21,7 +21,7 @@ const App = () => {
           outerScale={5}
         />
         <Homepage />
-        <Skills />
+        <About />
         <Experience />
         <Footer />
       </Layout>

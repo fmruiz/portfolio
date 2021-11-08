@@ -12,7 +12,7 @@
 }
 
 .logo__container:hover {
-    background-color: var(--color-black);
-    color: var(--color-white);
-    transition: 0.5s all;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  transition: 0.5s all;
 }
