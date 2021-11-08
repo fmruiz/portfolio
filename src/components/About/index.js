@@ -32,7 +32,7 @@ const About = () => (
       You can read more about my biography, experience, skills, education and
       much more in the PDF attached bellow:
     </div>
-    <div className={"about__resume"}>My resume</div>
+    <a href="../common/resume.pdf" className={"about__resume"} download>My resume</a>
   </div>
 );
 

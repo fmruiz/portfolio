@@ -24,6 +24,13 @@
   font-size: 16px;
 }
 
+@media (min-width: 700px) and (max-width: 899px) {
+  .social__container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
 /* SOCIAL STORIES ARGS */
 .black {
   color: var(--color-black);

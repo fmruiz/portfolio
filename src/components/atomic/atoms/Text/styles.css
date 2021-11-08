@@ -1,8 +1,14 @@
 /* TEXT STYLES */
 .text__atom {
-    color: var(--color-black);
-    line-height: 22px;
-    letter-spacing: 1px;
-    margin: 0;
-    width: 80%;
+  color: var(--color-black);
+  line-height: 22px;
+  letter-spacing: 1px;
+  margin: 0;
+  width: 80%;
+}
+
+@media (min-width: 700px) and (max-width: 899px) {
+  .text__atom {
+    width: 100%;
+  }
 }

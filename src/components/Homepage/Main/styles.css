@@ -63,6 +63,58 @@
   color: var(--color-black);
 }
 
+@media (min-width: 700px) and (max-width: 899px) {
+  .main__text .h4__main {
+    font-size: 44px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 0;
+    color: rgb(90, 90, 90);
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .main__text {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .name__text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .name__text span {
+    font-size: 44px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+
+  .main__first h1  {
+    font-size: 44px;
+  }
+
+  .main__first h1 span {
+    font-size: 44px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-left: 15px;
+    height: 100%;
+  }
+  
+  .main__first h3 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
+    width: 90%;
+    margin: 0 auto;
+    color: var(--color-black);
+  }
+}
+
 /* MAIN STORIES ARGS */
 .black {
   color: var(--color-black);

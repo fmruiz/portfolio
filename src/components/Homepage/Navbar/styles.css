@@ -43,6 +43,13 @@
   transform-origin: bottom left;
 }
 
+@media (min-width: 700px) and (max-width: 899px) {
+  .navbar__container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
 
 /* STORIES ARGS */
 .black {

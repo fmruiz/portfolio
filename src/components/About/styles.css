@@ -28,15 +28,23 @@
   align-items: center;
   justify-content: center;
   border: 3.5px solid var(--color-black);
-  color: var(--color-black);
   cursor: pointer;
   transition: 0.5s all;
   width: 130px;
   height: 30px;
+  text-decoration: none;
+  color: var(--color-black);
 }
 
 .about__resume:hover {
   background-color: var(--color-black);
   color: var(--color-white);
   transition: 0.5s all;
+}
+
+@media (min-width: 700px) and (max-width: 899px) {
+  .about__container {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
