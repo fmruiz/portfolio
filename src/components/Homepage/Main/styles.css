@@ -11,7 +11,15 @@
   flex-direction: column;
 }
 
-.main__first h1 {
+.main__first h1  {
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin: 0;
+  margin-left: 0px;
+}
+
+.main__first h1 span {
   font-size: 64px;
   font-weight: 800;
   letter-spacing: 2px;
