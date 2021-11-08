@@ -18,3 +18,9 @@
     width: 100%;
   }
 }
+
+@media (min-width: 450px) and (max-width: 699px) {
+  .text__atom {
+    width: 100%;
+  }
+}

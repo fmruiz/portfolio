@@ -25,3 +25,10 @@
     width: 90%;
   }
 }
+
+@media (min-width: 450px) and (max-width: 699px) {
+  .experience__container {
+    margin: 0 auto;
+    width: 90%;
+  }
+}

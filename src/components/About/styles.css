@@ -55,3 +55,10 @@
     margin: 0 auto;
   }
 }
+
+@media (min-width: 450px) and (max-width: 699px) {
+  .about__container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
