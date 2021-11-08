@@ -2,5 +2,7 @@
 .text__atom {
     color: var(--color-black);
     line-height: 22px;
+    letter-spacing: 1px;
     margin: 0;
+    width: 80%;
 }

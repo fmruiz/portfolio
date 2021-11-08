@@ -31,7 +31,6 @@ export const Social = ({ color, ...props }) => (
         <Twitter />
       </a>
     </div>
-
     <div className={`social__mail__container`}>
       <a href={"mailto: x.francoruiz@gmail.com"} className={`${color}`}>
         x.francoruiz@gmail.com
