@@ -32,3 +32,14 @@
     width: 90%;
   }
 }
+
+@media (min-width: 300px) and (max-width: 449px) {
+  .experience__container {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .experience__item h4 {
+    font-size: 20px !important;
+  }
+}

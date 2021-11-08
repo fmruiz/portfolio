@@ -4,3 +4,9 @@
   color: var(--color-black);
   letter-spacing: 1px;
 }
+
+@media (min-width: 300px) and (max-width: 449px) {
+  .title__experience {
+    font-size: 23px !important;
+  }
+}

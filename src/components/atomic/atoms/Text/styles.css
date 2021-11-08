@@ -24,3 +24,9 @@
     width: 100%;
   }
 }
+
+@media (min-width: 300px) and (max-width: 449px) {
+  .text__atom {
+    width: 100%;
+  }
+}

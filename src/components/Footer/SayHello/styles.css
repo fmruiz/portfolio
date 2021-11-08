@@ -38,3 +38,15 @@
     margin: 0 auto;
   }
 }
+
+@media (min-width: 300px) and (max-width: 449px) {
+  .sayhello__text {
+    font-size: 23px;
+  }
+
+  .sayhello__container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
