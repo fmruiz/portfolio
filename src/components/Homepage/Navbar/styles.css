@@ -50,6 +50,13 @@
   }
 }
 
+@media (min-width: 900px) and (max-width: 1199px) {
+  .navbar__container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
 
 /* STORIES ARGS */
 .black {
